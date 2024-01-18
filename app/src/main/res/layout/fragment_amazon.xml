@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".fragment.AmazonFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/coinsTv"
+        android:layout_margin="16dp"
+        android:drawableEnd="@drawable/ic_coins"
+        android:drawablePadding="8dp"
+        android:text="10000"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:textSize="18sp"
+        android:layout_alignParentRight="true"
+        android:drawableRight="@drawable/ic_coins"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:layout_centerInParent="true">
+
+        <RadioButton
+            android:id="@+id/amazon25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amazon 25$ Gift Card"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/amazon50"
+            android:text="Amazon 50$ Gift Card"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/btn"
+        android:backgroundTint="#EADC67"
+        android:minWidth="160dp"
+        android:text="Withdraw" />
+
+</RelativeLayout>
